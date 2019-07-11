@@ -1,0 +1,25 @@
+h1{
+    color:rgb(194, 161, 142);
+    font-size: 30px;
+    font-family: 'Merriweather', serif;
+}
+p, li{
+    color:rgb(236, 241, 240);
+    font-size:20; 
+
+}
+
+html {
+    background-color:rgb(194, 161, 142);
+    }
+    
+h1 {
+        outline-color:rgb(180, 114, 169);
+        outline-style: solid;
+        outline-width: 3px;
+        outline: rgb(228, 64, 214) solid 3
+        px;
+    }
+    img {
+        width: 50%;
+    }
