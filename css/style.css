@@ -1,25 +1,66 @@
+.portfolio-image {
+    display: inline;
+  }
+  .portfolio-image img {
+    max-height: auto;
+    max-width: 400px;
+    object-fit: cover;
+  }
+
 h1{
     color:rgb(194, 161, 142);
     font-size: 30px;
     font-family: 'Merriweather', serif;
-}
-p, li{
-    color:rgb(236, 241, 240);
-    font-size:20; 
-
+    margin-top: 40px;
 }
 
 html {
     background-color:rgb(194, 161, 142);
-    }
-    
-h1 {
-        outline-color:rgb(180, 114, 169);
-        outline-style: solid;
-        outline-width: 3px;
-        outline: rgb(228, 64, 214) solid 3
-        px;
-    }
-    img {
-        width: 50%;
-    }
+}
+
+#portfolio-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+#portfolio-child-image {
+    width: 480px;
+}
+
+#portfolio-child-image img {
+    width: 480px;
+}
+
+#portfolio-child-desc {
+    width: 480px;
+    position: relative;
+    background-image: url("../images/papyrus.png");
+    color: black;
+    font-size: 20;
+    font-family: sans-serif;
+    text-align: left
+}
+
+#portfolio-child-desc p {
+    padding-top: 10px;
+}
+
+#portfolio-child-desc-icons {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.icon {
+    padding: 5px;
+    display: inline;
+}
+
+.icon img {
+    max-height: 40px;
+    max-width: 40px;
+    object-fit: cover;
+}
+
